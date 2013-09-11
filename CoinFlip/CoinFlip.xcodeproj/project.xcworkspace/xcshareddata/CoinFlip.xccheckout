@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C6D153C-D21C-4337-AF71-B2B3E4F8DC39</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoinFlip</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7192F6A1-D789-485A-9EA4-8AA9A6DEE282</key>
+		<string>https://github.com/epeguero/SOLID-TDD-OOD-GameDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoinFlip/CoinFlip.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7192F6A1-D789-485A-9EA4-8AA9A6DEE282</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/epeguero/SOLID-TDD-OOD-GameDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7192F6A1-D789-485A-9EA4-8AA9A6DEE282</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7192F6A1-D789-485A-9EA4-8AA9A6DEE282</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SOLID-TDD-OOD-GameDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
