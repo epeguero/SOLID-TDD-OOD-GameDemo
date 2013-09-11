@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E85DDD2317DFFF890067B268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DDD2217DFFF890067B268 /* Foundation.framework */; };
+		E85DDD2517DFFF890067B268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DDD2417DFFF890067B268 /* CoreGraphics.framework */; };
+		E85DDD2717DFFF890067B268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DDD2617DFFF890067B268 /* UIKit.framework */; };
+		E85DDD2D17DFFF890067B268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E85DDD2B17DFFF890067B268 /* InfoPlist.strings */; };
+		E85DDD2F17DFFF890067B268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DDD2E17DFFF890067B268 /* main.m */; };
+		E85DDD3317DFFF890067B268 /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DDD3217DFFF890067B268 /* CFAppDelegate.m */; };
+		E85DDD3617DFFF890067B268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85DDD3417DFFF890067B268 /* Main.storyboard */; };
+		E85DDD3917DFFF890067B268 /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DDD3817DFFF890067B268 /* CFViewController.m */; };
+		E85DDD3B17DFFF890067B268 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85DDD3A17DFFF890067B268 /* Images.xcassets */; };
+		E85DDD4217DFFF890067B268 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DDD4117DFFF890067B268 /* XCTest.framework */; };
+		E85DDD4317DFFF890067B268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DDD2217DFFF890067B268 /* Foundation.framework */; };
+		E85DDD4417DFFF890067B268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DDD2617DFFF890067B268 /* UIKit.framework */; };
+		E85DDD4C17DFFF890067B268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E85DDD4A17DFFF890067B268 /* InfoPlist.strings */; };
+		E85DDD4E17DFFF890067B268 /* CoinFlipGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DDD4D17DFFF890067B268 /* CoinFlipGameTests.m */; };
+		E85DDD5C17DFFFFD0067B268 /* CFCoinFlipGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DDD5B17DFFFFD0067B268 /* CFCoinFlipGame.m */; };
+		E85DDD5D17DFFFFD0067B268 /* CFCoinFlipGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DDD5B17DFFFFD0067B268 /* CFCoinFlipGame.m */; };
+		E880CA8F17E0116300B5F2A4 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E880CA8E17E0116300B5F2A4 /* libOCMock.a */; };
+		E880CA9017E0116300B5F2A4 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E880CA8E17E0116300B5F2A4 /* libOCMock.a */; };
+		E893500A17E02E06004DF4E3 /* CFCoinFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = E893500917E02E06004DF4E3 /* CFCoinFlipView.m */; };
+		E893501917E03926004DF4E3 /* CFViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E893501817E03926004DF4E3 /* CFViewControllerTests.m */; };
+		E893501F17E044B4004DF4E3 /* CFIOSCoinFlipGameInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = E893501E17E044B4004DF4E3 /* CFIOSCoinFlipGameInterface.m */; };
+		E893502117E04BB6004DF4E3 /* CFIOSCoinFlipGameInterfaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E893502017E04BB6004DF4E3 /* CFIOSCoinFlipGameInterfaceTests.m */; };
+		E893502417E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E893502317E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m */; };
+		E893502517E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E893502317E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E85DDD4517DFFF890067B268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85DDD1717DFFF890067B268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E85DDD1E17DFFF890067B268;
+			remoteInfo = CoinFlip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E85DDD1F17DFFF890067B268 /* CoinFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85DDD2217DFFF890067B268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E85DDD2417DFFF890067B268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E85DDD2617DFFF890067B268 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E85DDD2A17DFFF890067B268 /* CoinFlip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoinFlip-Info.plist"; sourceTree = "<group>"; };
+		E85DDD2C17DFFF890067B268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E85DDD2E17DFFF890067B268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E85DDD3017DFFF890067B268 /* CoinFlip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoinFlip-Prefix.pch"; sourceTree = "<group>"; };
+		E85DDD3117DFFF890067B268 /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		E85DDD3217DFFF890067B268 /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		E85DDD3517DFFF890067B268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E85DDD3717DFFF890067B268 /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
+		E85DDD3817DFFF890067B268 /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		E85DDD3A17DFFF890067B268 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E85DDD4017DFFF890067B268 /* CoinFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85DDD4117DFFF890067B268 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E85DDD4917DFFF890067B268 /* CoinFlipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoinFlipTests-Info.plist"; sourceTree = "<group>"; };
+		E85DDD4B17DFFF890067B268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E85DDD4D17DFFF890067B268 /* CoinFlipGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinFlipGameTests.m; sourceTree = "<group>"; };
+		E85DDD5A17DFFFFD0067B268 /* CFCoinFlipGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoinFlipGame.h; sourceTree = "<group>"; };
+		E85DDD5B17DFFFFD0067B268 /* CFCoinFlipGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoinFlipGame.m; sourceTree = "<group>"; };
+		E85DDD5F17E003840067B268 /* CFCoinFaceGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoinFaceGenerator.h; sourceTree = "<group>"; };
+		E880CA8717E0116300B5F2A4 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		E880CA8817E0116300B5F2A4 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = OCMock/OCMArg.h; sourceTree = "<group>"; };
+		E880CA8917E0116300B5F2A4 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = OCMock/OCMConstraint.h; sourceTree = "<group>"; };
+		E880CA8A17E0116300B5F2A4 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = OCMock/OCMock.h; sourceTree = "<group>"; };
+		E880CA8B17E0116300B5F2A4 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = OCMock/OCMockObject.h; sourceTree = "<group>"; };
+		E880CA8C17E0116300B5F2A4 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockRecorder.h; path = OCMock/OCMockRecorder.h; sourceTree = "<group>"; };
+		E880CA8E17E0116300B5F2A4 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		E893500817E02E06004DF4E3 /* CFCoinFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoinFlipView.h; sourceTree = "<group>"; };
+		E893500917E02E06004DF4E3 /* CFCoinFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoinFlipView.m; sourceTree = "<group>"; };
+		E893500C17E0300D004DF4E3 /* CFCoinFlipUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoinFlipUI.h; sourceTree = "<group>"; };
+		E893500D17E0323C004DF4E3 /* CFCoinFlipGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoinFlipGameModel.h; sourceTree = "<group>"; };
+		E893501817E03926004DF4E3 /* CFViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewControllerTests.m; sourceTree = "<group>"; };
+		E893501C17E04313004DF4E3 /* CFCoinFlipGameModelInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoinFlipGameModelInterface.h; sourceTree = "<group>"; };
+		E893501D17E044B4004DF4E3 /* CFIOSCoinFlipGameInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFIOSCoinFlipGameInterface.h; sourceTree = "<group>"; };
+		E893501E17E044B4004DF4E3 /* CFIOSCoinFlipGameInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFIOSCoinFlipGameInterface.m; sourceTree = "<group>"; };
+		E893502017E04BB6004DF4E3 /* CFIOSCoinFlipGameInterfaceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFIOSCoinFlipGameInterfaceTests.m; sourceTree = "<group>"; };
+		E893502217E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFArc4RandomCoinFaceGenerator.h; sourceTree = "<group>"; };
+		E893502317E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFArc4RandomCoinFaceGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E85DDD1C17DFFF890067B268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E880CA8F17E0116300B5F2A4 /* libOCMock.a in Frameworks */,
+				E85DDD2517DFFF890067B268 /* CoreGraphics.framework in Frameworks */,
+				E85DDD2717DFFF890067B268 /* UIKit.framework in Frameworks */,
+				E85DDD2317DFFF890067B268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85DDD3D17DFFF890067B268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85DDD4217DFFF890067B268 /* XCTest.framework in Frameworks */,
+				E880CA9017E0116300B5F2A4 /* libOCMock.a in Frameworks */,
+				E85DDD4417DFFF890067B268 /* UIKit.framework in Frameworks */,
+				E85DDD4317DFFF890067B268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E85DDD1617DFFF890067B268 = {
+			isa = PBXGroup;
+			children = (
+				E880CA8517E0116300B5F2A4 /* include */,
+				E880CA8D17E0116300B5F2A4 /* lib */,
+				E85DDD2817DFFF890067B268 /* CoinFlip */,
+				E893500E17E03315004DF4E3 /* Tests */,
+				E85DDD2117DFFF890067B268 /* Frameworks */,
+				E85DDD2017DFFF890067B268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E85DDD2017DFFF890067B268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD1F17DFFF890067B268 /* CoinFlip.app */,
+				E85DDD4017DFFF890067B268 /* CoinFlipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E85DDD2117DFFF890067B268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD2217DFFF890067B268 /* Foundation.framework */,
+				E85DDD2417DFFF890067B268 /* CoreGraphics.framework */,
+				E85DDD2617DFFF890067B268 /* UIKit.framework */,
+				E85DDD4117DFFF890067B268 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E85DDD2817DFFF890067B268 /* CoinFlip */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD3117DFFF890067B268 /* CFAppDelegate.h */,
+				E85DDD3217DFFF890067B268 /* CFAppDelegate.m */,
+				E85DDD5917DFFFBE0067B268 /* Infrastructure */,
+				E85DDD5817DFFF9E0067B268 /* PresentationLayer */,
+				E85DDD5717DFFF940067B268 /* DomainLayer */,
+			);
+			path = CoinFlip;
+			sourceTree = "<group>";
+		};
+		E85DDD2917DFFF890067B268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD2A17DFFF890067B268 /* CoinFlip-Info.plist */,
+				E85DDD2B17DFFF890067B268 /* InfoPlist.strings */,
+				E85DDD2E17DFFF890067B268 /* main.m */,
+				E85DDD3017DFFF890067B268 /* CoinFlip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85DDD4717DFFF890067B268 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD4D17DFFF890067B268 /* CoinFlipGameTests.m */,
+			);
+			name = DomainLayer;
+			path = CoinFlipTests;
+			sourceTree = "<group>";
+		};
+		E85DDD4817DFFF890067B268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD4917DFFF890067B268 /* CoinFlipTests-Info.plist */,
+				E85DDD4A17DFFF890067B268 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = CoinFlipTests;
+			sourceTree = "<group>";
+		};
+		E85DDD5717DFFF940067B268 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD5E17E0036B0067B268 /* Abstractions */,
+				E85DDD5A17DFFFFD0067B268 /* CFCoinFlipGame.h */,
+				E85DDD5B17DFFFFD0067B268 /* CFCoinFlipGame.m */,
+				E893502217E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.h */,
+				E893502317E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m */,
+			);
+			name = DomainLayer;
+			sourceTree = "<group>";
+		};
+		E85DDD5817DFFF9E0067B268 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E893500B17E02FEA004DF4E3 /* Abstractions */,
+				E85DDD3417DFFF890067B268 /* Main.storyboard */,
+				E85DDD3717DFFF890067B268 /* CFViewController.h */,
+				E85DDD3817DFFF890067B268 /* CFViewController.m */,
+				E893500817E02E06004DF4E3 /* CFCoinFlipView.h */,
+				E893500917E02E06004DF4E3 /* CFCoinFlipView.m */,
+				E893501D17E044B4004DF4E3 /* CFIOSCoinFlipGameInterface.h */,
+				E893501E17E044B4004DF4E3 /* CFIOSCoinFlipGameInterface.m */,
+			);
+			name = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		E85DDD5917DFFFBE0067B268 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD3A17DFFF890067B268 /* Images.xcassets */,
+				E85DDD2917DFFF890067B268 /* Supporting Files */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		E85DDD5E17E0036B0067B268 /* Abstractions */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD5F17E003840067B268 /* CFCoinFaceGenerator.h */,
+				E893500D17E0323C004DF4E3 /* CFCoinFlipGameModel.h */,
+			);
+			name = Abstractions;
+			sourceTree = "<group>";
+		};
+		E880CA8517E0116300B5F2A4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E880CA9117E012D500B5F2A4 /* OCMock */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E880CA8D17E0116300B5F2A4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E880CA8E17E0116300B5F2A4 /* libOCMock.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E880CA9117E012D500B5F2A4 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				E880CA8717E0116300B5F2A4 /* NSNotificationCenter+OCMAdditions.h */,
+				E880CA8817E0116300B5F2A4 /* OCMArg.h */,
+				E880CA8917E0116300B5F2A4 /* OCMConstraint.h */,
+				E880CA8A17E0116300B5F2A4 /* OCMock.h */,
+				E880CA8B17E0116300B5F2A4 /* OCMockObject.h */,
+				E880CA8C17E0116300B5F2A4 /* OCMockRecorder.h */,
+			);
+			name = OCMock;
+			sourceTree = "<group>";
+		};
+		E893500B17E02FEA004DF4E3 /* Abstractions */ = {
+			isa = PBXGroup;
+			children = (
+				E893500C17E0300D004DF4E3 /* CFCoinFlipUI.h */,
+				E893501C17E04313004DF4E3 /* CFCoinFlipGameModelInterface.h */,
+			);
+			name = Abstractions;
+			sourceTree = "<group>";
+		};
+		E893500E17E03315004DF4E3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E893501A17E03948004DF4E3 /* Infrastructure */,
+				E893500F17E03327004DF4E3 /* PresentationLayer */,
+				E85DDD4717DFFF890067B268 /* DomainLayer */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		E893500F17E03327004DF4E3 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E893501817E03926004DF4E3 /* CFViewControllerTests.m */,
+				E893502017E04BB6004DF4E3 /* CFIOSCoinFlipGameInterfaceTests.m */,
+			);
+			name = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		E893501A17E03948004DF4E3 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				E85DDD4817DFFF890067B268 /* Supporting Files */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E85DDD1E17DFFF890067B268 /* CoinFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85DDD5117DFFF890067B268 /* Build configuration list for PBXNativeTarget "CoinFlip" */;
+			buildPhases = (
+				E85DDD1B17DFFF890067B268 /* Sources */,
+				E85DDD1C17DFFF890067B268 /* Frameworks */,
+				E85DDD1D17DFFF890067B268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinFlip;
+			productName = CoinFlip;
+			productReference = E85DDD1F17DFFF890067B268 /* CoinFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E85DDD3F17DFFF890067B268 /* CoinFlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85DDD5417DFFF890067B268 /* Build configuration list for PBXNativeTarget "CoinFlipTests" */;
+			buildPhases = (
+				E85DDD3C17DFFF890067B268 /* Sources */,
+				E85DDD3D17DFFF890067B268 /* Frameworks */,
+				E85DDD3E17DFFF890067B268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E85DDD4617DFFF890067B268 /* PBXTargetDependency */,
+			);
+			name = CoinFlipTests;
+			productName = CoinFlipTests;
+			productReference = E85DDD4017DFFF890067B268 /* CoinFlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85DDD1717DFFF890067B268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Edwin Peguero";
+				TargetAttributes = {
+					E85DDD3F17DFFF890067B268 = {
+						TestTargetID = E85DDD1E17DFFF890067B268;
+					};
+				};
+			};
+			buildConfigurationList = E85DDD1A17DFFF890067B268 /* Build configuration list for PBXProject "CoinFlip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E85DDD1617DFFF890067B268;
+			productRefGroup = E85DDD2017DFFF890067B268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E85DDD1E17DFFF890067B268 /* CoinFlip */,
+				E85DDD3F17DFFF890067B268 /* CoinFlipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E85DDD1D17DFFF890067B268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85DDD3B17DFFF890067B268 /* Images.xcassets in Resources */,
+				E85DDD2D17DFFF890067B268 /* InfoPlist.strings in Resources */,
+				E85DDD3617DFFF890067B268 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85DDD3E17DFFF890067B268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85DDD4C17DFFF890067B268 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E85DDD1B17DFFF890067B268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E893500A17E02E06004DF4E3 /* CFCoinFlipView.m in Sources */,
+				E85DDD2F17DFFF890067B268 /* main.m in Sources */,
+				E893502417E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m in Sources */,
+				E85DDD3317DFFF890067B268 /* CFAppDelegate.m in Sources */,
+				E893501F17E044B4004DF4E3 /* CFIOSCoinFlipGameInterface.m in Sources */,
+				E85DDD5C17DFFFFD0067B268 /* CFCoinFlipGame.m in Sources */,
+				E85DDD3917DFFF890067B268 /* CFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85DDD3C17DFFF890067B268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85DDD5D17DFFFFD0067B268 /* CFCoinFlipGame.m in Sources */,
+				E893502517E05D30004DF4E3 /* CFArc4RandomCoinFaceGenerator.m in Sources */,
+				E893501917E03926004DF4E3 /* CFViewControllerTests.m in Sources */,
+				E85DDD4E17DFFF890067B268 /* CoinFlipGameTests.m in Sources */,
+				E893502117E04BB6004DF4E3 /* CFIOSCoinFlipGameInterfaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E85DDD4617DFFF890067B268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E85DDD1E17DFFF890067B268 /* CoinFlip */;
+			targetProxy = E85DDD4517DFFF890067B268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E85DDD2B17DFFF890067B268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85DDD2C17DFFF890067B268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E85DDD3417DFFF890067B268 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85DDD3517DFFF890067B268 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E85DDD4A17DFFF890067B268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85DDD4B17DFFF890067B268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E85DDD4F17DFFF890067B268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E85DDD5017DFFF890067B268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E85DDD5217DFFF890067B268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinFlip/CoinFlip-Prefix.pch";
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
+				INFOPLIST_FILE = "CoinFlip/CoinFlip-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E85DDD5317DFFF890067B268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinFlip/CoinFlip-Prefix.pch";
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
+				INFOPLIST_FILE = "CoinFlip/CoinFlip-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E85DDD5517DFFF890067B268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoinFlip.app/CoinFlip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinFlip/CoinFlip-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoinFlipTests/CoinFlipTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E85DDD5617DFFF890067B268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoinFlip.app/CoinFlip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinFlip/CoinFlip-Prefix.pch";
+				INFOPLIST_FILE = "CoinFlipTests/CoinFlipTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E85DDD1A17DFFF890067B268 /* Build configuration list for PBXProject "CoinFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85DDD4F17DFFF890067B268 /* Debug */,
+				E85DDD5017DFFF890067B268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85DDD5117DFFF890067B268 /* Build configuration list for PBXNativeTarget "CoinFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85DDD5217DFFF890067B268 /* Debug */,
+				E85DDD5317DFFF890067B268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85DDD5417DFFF890067B268 /* Build configuration list for PBXNativeTarget "CoinFlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85DDD5517DFFF890067B268 /* Debug */,
+				E85DDD5617DFFF890067B268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85DDD1717DFFF890067B268 /* Project object */;
+}
