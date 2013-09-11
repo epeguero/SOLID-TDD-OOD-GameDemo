@@ -40,12 +40,4 @@
     }
 }
 
--(NSUInteger) totalHeads {
-    return _totalHeads;
-}
-
--(NSUInteger)totalTails {
-    return _totalTails;
-}
-
 @end

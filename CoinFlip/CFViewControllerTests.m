@@ -42,8 +42,9 @@
     [[mockGameModelInterface expect] coinWasFlipped];
     
     // 2)
-    CFViewController *systemUnderTest = [[CFViewController alloc] initWithGameModelInterface:(id<CFCoinFlipGameModelInterface>)mockGameModelInterface];
-    
+    CFViewController *systemUnderTest = [[CFViewController alloc] init];
+    systemUnderTest.gameModelInterface = (id<CFCoinFlipGameModelInterface>)mockGameModelInterface;
+
     // Act: simulate user pressing the "flip coin" button
     [systemUnderTest flipCoinButtonWasPressed];
     
